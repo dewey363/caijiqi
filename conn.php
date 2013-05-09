@@ -1,7 +1,7 @@
 <?php
 function connection($flid){
 	    
-	 	$link = mysql_connect("localhost","root","dq888");//'mallmysql', 'Mallmysql@468'
+	 	$link = mysql_connect("localhost","root","");
 		if (!$link) {
 			die('Could not connect: ' . mysql_error());
 		}else{
